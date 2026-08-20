@@ -204,7 +204,7 @@ export const weddingData: WeddingData = {
     ],
     qrisUrl: "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=00020101021126580014ID.GO.QRIS.WWW011893600914000000000002030005204581253033605405100005802ID5915WEDDING%20GIFT6007JAKARTA61051211062070703A01630489A1",
   },
-  musicUrl: "https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=wedding-piano-114421.mp3",
+  musicUrl: "/music/violin.mp3",
   whatsApp: {
     phoneNumber: "6281234567890",
     defaultMessage: "Halo Syafri & Aisyah, selamat atas pernikahan kalian! Semoga menjadi keluarga yang sakinah, mawaddah, warahmah.",
