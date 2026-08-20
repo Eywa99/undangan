@@ -1,0 +1,62 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --background: #FAF8F5;
+  --foreground: #4F5B4A;
+  --font-cormorant: 'Cormorant Garamond', Georgia, serif;
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8A45D;
+  border-radius: 4px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-poppins), sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-serif-custom {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(232, 216, 180, 0.5);
+  box-shadow: 0 10px 30px -10px rgba(79, 91, 74, 0.08);
+}
+
+.glass-card-gold {
+  background: rgba(250, 248, 245, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(200, 164, 93, 0.4);
+  box-shadow: 0 12px 36px 0 rgba(200, 164, 93, 0.12);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #C8A45D 0%, #E5C889 50%, #A4813A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
