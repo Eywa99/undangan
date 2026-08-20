@@ -16,7 +16,7 @@ export default function AudioPlayer({ isPlaying }: AudioPlayerProps) {
 
     if (isPlaying) {
       audio.play().catch((err) => {
-        console.warn("Audio play warning:", err);
+        console.warn("Audio autoplay policy or playback error:", err);
       });
     } else {
       audio.pause();

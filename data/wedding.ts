@@ -96,7 +96,7 @@ export const weddingData: WeddingData = {
     timezone: "WIB",
     venueName: "Grand Ballroom Royal Palace",
     address: "Jl. Jend. Sudirman No. 88, Karet Semanggi, Jakarta Selatan",
-    googleMapsUrl: "https://maps.google.com/?q=Grand+Ballroom+Jakarta",
+    googleMapsUrl: "https://maps.app.goo.gl/qcdb3c34qK48FpFp9",
   },
   resepsi: {
     title: "Resepsi Pernikahan",
@@ -106,9 +106,9 @@ export const weddingData: WeddingData = {
     timezone: "WIB",
     venueName: "Grand Ballroom Royal Palace",
     address: "Jl. Jend. Sudirman No. 88, Karet Semanggi, Jakarta Selatan",
-    googleMapsUrl: "https://maps.google.com/?q=Grand+Ballroom+Jakarta",
+    googleMapsUrl: "https://maps.app.goo.gl/qcdb3c34qK48FpFp9",
   },
-  mapsEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.273760447385!2d106.818816!3d-6.227581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4a9561cfb%3A0xd6535569eb2e0b57!2sJl.%20Jend.%20Sudirman%2C%20Jakarta!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid",
+  mapsEmbedUrl: "https://maps.google.com/maps?q=https://maps.app.goo.gl/qcdb3c34qK48FpFp9&t=&z=15&ie=UTF8&iwloc=&output=embed",
   quranVerse: {
     surah: "QS. Ar-Rum Ayat 21",
     arabic: "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
