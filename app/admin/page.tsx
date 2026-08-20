@@ -14,7 +14,7 @@ export default function AdminPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [deletingId, setDeletingId] = useState<string | null>(null);
 
-  const ADMIN_PASSWORD = process.env.NEXT_PUBLIC_ADMIN_PASSWORD || "syafriaisyah2026";
+  const ADMIN_PASSWORD = process.env.NEXT_PUBLIC_ADMIN_PASSWORD || "wilianrafikasari2026";
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
