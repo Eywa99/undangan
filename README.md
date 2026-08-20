@@ -7,7 +7,7 @@ Website **Undangan Pernikahan Digital Premium** baru yang dibangun 100% dari nol
 ## 🌟 Fitur Utama
 
 1. **Personalization Nama Tamu Dinamis**
-   - Rute URL: `/to/nama-tamu` (Contoh: `https://undangan-pi-pink.vercel.app/to/ikhwatul`)
+   - Rute URL: `/to/nama-tamu` (Contoh: `https://pernikahan-kami.vercel.app/to/ikhwatul`)
    - Tampilan Cover:
      ```
      Kepada Yth.

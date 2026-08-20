@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: `The Wedding of ${weddingData.groom.shortName} & ${weddingData.bride.shortName}`,
     description: `Tanpa Mengurangi Rasa Hormat, Kami Mengundang Bapak/Ibu/Saudara/i Untuk Hadir Di Acara Pernikahan Kami.`,
-    url: "https://namaundangan.vercel.app",
+    url: "https://pernikahan-kami.vercel.app",
     siteName: `Pernikahan ${weddingData.groom.shortName} & ${weddingData.bride.shortName}`,
     images: [
       {

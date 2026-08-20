@@ -21,7 +21,7 @@ export default function FloatingMenu({ isPlaying, onToggleMusic, guestName }: Fl
   const handleWhatsAppShare = () => {
     const text = encodeURIComponent(
       `Halo, saya mengundang Anda ke Pernikahan ${weddingData.groom.shortName} & ${weddingData.bride.shortName}.\n\n` +
-      `Lihat undangan selengkapnya di sini:\nhttps://undangan-pi-pink.vercel.app/to/${encodeURIComponent(guestName || "Tamu")}`
+      `Lihat undangan selengkapnya di sini:\nhttps://pernikahan-kami.vercel.app/to/${encodeURIComponent(guestName || "Tamu")}`
     );
     window.open(`https://api.whatsapp.com/send?text=${text}`, "_blank");
   };
